@@ -1,15 +1,15 @@
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
-host:'localhost',
+/*host:'localhost',
 user: 'root',
 password: 'root',
-database: 'rpa'
+database: 'rpa'*/
 
-/*host:'bpz4mgvvilkoebkc34og-mysql.services.clever-cloud.com',
+host:'bpz4mgvvilkoebkc34og-mysql.services.clever-cloud.com',
 user: 'uvtejtkofmhlwjas',
 password: 'rOKjdBgecAcD0bAC8DUZ',
-database: 'bpz4mgvvilkoebkc34og'*/
+database: 'bpz4mgvvilkoebkc34og'
 });
 
 mysqlConnection.connect(function(err){
